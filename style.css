@@ -257,3 +257,61 @@ form button {
     margin: 0 15% 6%;
     border-radius: 10px;
 }
+
+/* Update Section */
+.update {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto 60%;
+    height: 60vh;
+    margin-bottom: 5%;
+}
+
+.update h1 {
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 60px;
+    margin-bottom: 2%;
+}
+
+.update p {
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 26px;
+    margin-bottom: 2%;
+}
+
+.subscribe {
+    background: #ffe0e0;
+    height: 50%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe input,
+.subscribe button {
+    font-size: 26px;
+    outline: none;
+    border: none;
+    background: transparent;
+    background: #FF5959;
+    color: whitesmoke;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.subscribe input {
+    background: #dedcdc8d;
+    color: rgb(211, 57, 57);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.subscribe input::placeholder {
+    color: #746262;
+}
