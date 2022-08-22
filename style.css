@@ -41,3 +41,74 @@
     background-color: transparent;
     text-decoration: none;
 }
+
+/* Donate Section */
+.donate {
+    width: 60%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.donate h1 {
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 60px;
+    margin-bottom: 2%;
+}
+
+.donate p {
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 25px;
+    margin-bottom: 5%;
+}
+
+.donate-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.donate-card b {
+    font-family: 'Inter', sans-serif;
+    color: #707070;
+    font-size: 30px;
+    margin: 0% 1% 5%;
+    border: solid;
+    padding: 40px;
+    border-radius: 5px;
+    background: #FAFAFA;
+    box-sizing: border-box;
+
+}
+
+#special {
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+
+.donate input {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    border-style: none none solid none;
+    margin-bottom: 5%;
+}
+
+.donate input:focus {
+    outline: none;
+}
+
+.donate a {
+    color: #707070;
+    border: 2px solid #707070;
+}
