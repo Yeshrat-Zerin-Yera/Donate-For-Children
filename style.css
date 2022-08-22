@@ -112,3 +112,64 @@
     color: #707070;
     border: 2px solid #707070;
 }
+
+/* Plan Section */
+.plan {
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.plan-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+#plan-col1,
+#plan-col2,
+#plan-col3 {
+    text-align: left;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #deffff;
+    width: 100%;
+    height: 60%;
+}
+
+#plan-col2 {
+    background-color: #dbfff4;
+}
+
+#plan-col3 {
+    background-color: #f5ffe4
+}
+
+.plan img {
+    width: 20%;
+    margin-bottom: 5%;
+}
+
+.plan h1 {
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    font-size: 60px;
+    margin-bottom: 2%;
+}
+
+.plan h2 {
+    font-family: 'Inter', sans-serif;
+    color: #121212;
+    margin-bottom: 5%;
+}
+
+.plan p {
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    font-size: 20px;
+}
